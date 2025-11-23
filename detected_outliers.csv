@@ -1,0 +1,4 @@
+id,sysmon_log,cti_summary,generated_summary,anomaly_score,outlier_label
+5,Registry Modification: winword.exe modified registry key HKCU\Software\Microsoft\Office,Microsoft Word updated registry settings under the user's Office configuration.,Summarize this SYSMON event as a CTI report:Registry Modification: winword.exe modified registry key HKCU\Software\Microsoft\Office,0.0113877628454329,-1
+13,File Create: excel.exe created file budget_2024.xlsx in Documents,Excel created a spreadsheet file named budget_2024.xlsx in the user's Documents folder.,Summarize this SYSMON event as a CTI report:File Create: excel.exe created file budget_2024.xlsx in Documents,0.0131569122025263,-1
+14,Process Terminate: lgpo.exe PID 4552 terminated unexpectedly,"lgpo.exe terminated unexpectedly, suggesting possible manipulation of local group policy settings.",Summarize this SYSMON event as a CTI report:Process Terminate: lgpo.exe PID 4552 terminated unexpectedly,0.0010843240149422,-1

